@@ -5,7 +5,7 @@ int main() {
 
     float C=37.0;
     
-    printf("Fahrenheit value for Celsius %f is %f", C, 1.8*C+32);
+    printf("Fahrenheit value for Celsius %f is %f\n\n", C, 1.8*C+32);
 
 
 return 0;

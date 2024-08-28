@@ -12,7 +12,7 @@ int main(){
             printf("Enter your breadth\n");
             scanf("%d", &breadth);
 
-            printf("The Area is %d", length*breadth);
+            printf("The Area is %d\n \n", length*breadth);
 
 
     return 0;
