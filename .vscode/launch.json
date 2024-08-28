@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/firstone/#C/Chapter 1/Practice Set",
-      "program": "/workspaces/firstone/#C/Chapter 1/Practice Set/build/Debug/outDebug",
+      "cwd": "/workspaces/firstone/projects/#C/Chapter 2",
+      "program": "/workspaces/firstone/projects/#C/Chapter 2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
