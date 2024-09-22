@@ -1,4 +1,5 @@
 #include<stdio.h>
+//how is this code
 int main(){
 FILE *ptr;
 ptr=fopen("farru.txt","w");
