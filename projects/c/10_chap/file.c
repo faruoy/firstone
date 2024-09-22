@@ -7,3 +7,6 @@ fprintf(ptr,"%d",num);
 fclose(ptr);
 return 0;
 }
+
+
+// this was comment I wrote man
