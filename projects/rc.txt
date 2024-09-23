@@ -1,0 +1,30 @@
+  1 syntax on                                                                     2 inoremap main #include <stdio.h><CR>int main() {<CR><CR><CR>return 0;<CR>}<C    R><Up><Up><Up><Up>                                                            3 inoremap sf scanf(" ",&);<Left><Left><Left><Left><Left><left>                 4 inoremap for for(int i = 0; i < ; i++)<CR> { <CR> <CR> }
+  5 inoremap if if( ) {<CR> <CR>}
+  6 inoremap while while( ) {<CR> <CR>}
+  7 inoremap pf printf("");<left><left><left>
+  8 inoremap ( ()<Left>
+  9 inoremap { {}<Left>
+ 10 inoremap [ []<Left>
+ 11 inoremap ' ''<Left>
+ 12 inoremap " ""<Left>
+ 13 inoremap < <> <left>
+ 14 iabbrev math #include<math.h>
+ 15 nnoremap <C-s> :w <CR>
+ 16 nnoremap <C-q> :wq  <CR>
+ 17 nnoremap <C-f> :q! <CR>
+ 18 nnoremap <CR> i
+ 19 set tabstop=4                                                                20 set shiftwidth=4
+ 21 set softtabstop=4
+ 22 set cindent
+ 23 set showmatch
+ 24 set cursorline                                                               25 set termguicolors
+ 26 set completeopt=menu,menuone,noselect
+ 27 colorscheme peachpuff
+ 28 set number
+ 29 autocmd BufWritePost *.c silent! !cc % -o %:r && ./%:r
+ 30 set mouse=a
+ 31 set scrolloff=5
+ 32 set sidescrolloff=5
+ 33 set laststatus=2
+ 34 set statusline=%f\ %y\ %m\ %r\ %h\ %w\ [FORMAT=%{&fileformat}]\ [TYPE=%Y]\ [    POS=%l,%v][%p%%]
+~
