@@ -32,4 +32,3 @@ set scrolloff=5
 set sidescrolloff=5
 set laststatus=2
 set statusline=%f\ %y\ %m\ %r\ %h\ %w\ [FORMAT=%{&fileformat}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%].
-
