@@ -13,7 +13,7 @@ ptr=fopen("employee.txt","w");
 printf("Enter the Name of Employee 1 : ");
 scanf("%s",&e1.name);
 e1.salary=3300;
-printf("Enter the Name of Emplo    yee 2 : ")
+printf("Enter the Name of Employee 2 : ");
 scanf("%s",&e2.name);
 e2.salary=7700;
 FILE *ptr;
