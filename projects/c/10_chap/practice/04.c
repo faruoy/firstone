@@ -25,6 +25,8 @@ fprintf(ptr,"%s",e2.name);
 fprintf(ptr,"%c","\n");
 fprintf(ptr,"%d",e2.salary);
 fprintf(ptr,"%c","\n");
+fprintf(ptr,"%s","%d\n",e1.name,e1.salary);
+fprintf(ptr,"%s","%d\n",e2.name,e2.salary);
 fclose(ptr);
 
 	return 0;
