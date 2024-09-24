@@ -18,10 +18,8 @@ scanf("%s",&e2.name);
 e2.salary=7700;
 FILE *ptr;
 ptr=fopen("employ.txt","w");
-fprintf(ptr,"%s",e1.name);
-fprintf(ptr,"%d",e1.salary);
-fprintf(ptr,"%s",e2.name);
-fprintf(ptr,"%d",e2.salary);
+fprintf(ptr,"%s","%d\n",e1.name,e1.salary);
+fprintf(ptr,"%s","%d\n",e2.name,e2.salary);
 fclose(ptr);
 
 	return 0;
