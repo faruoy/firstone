@@ -17,3 +17,4 @@ int main() {
 printf("\nThe value of index[%d] is %d\n",3,ptr[4]);
 	return 0;
 }
+

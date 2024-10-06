@@ -8,8 +8,8 @@ typedef struct vector
 } vec;
 int main()
 {
-    vec A = {3, 5};
-    vec B = {23, 5};
+    vec A = {345, 55};
+    vec B = {243, 65};
     int sum_i = A.i + B.i;
     int sum_j = A.j + B.j;
     printf("The Vector sum of A + B = ( %d , %d )\n\n", sum_i, sum_j);

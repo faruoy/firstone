@@ -11,5 +11,5 @@ int main()
 {
     mem m1 = {466, "Farhan", 567.76};
     mem*ptr = &m1;
-    printf("%d %s %f\n", ptr->code, ptr->n, ptr->salary);
+    printf("\nThe code of Employee is %d\nThe Name of Employee is %s\nThe Salary of Employee is %f\n", ptr->code, ptr->n, ptr->salary);
 }
