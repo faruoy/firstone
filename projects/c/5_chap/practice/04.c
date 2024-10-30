@@ -8,10 +8,10 @@ int series(int n){
         return n-1;
     }
     return series(n-1)+series(n-2);
-     
-    }
 
-    int main(){
-        int n=6;
-        printf("The value %dth value of Fibonacci series is %d\n",n,series(n));
-    }
+}
+
+int main(){
+    int n=6;
+    printf("The value %dth value of Fibonacci series is %d\n",n,series(n));
+}
