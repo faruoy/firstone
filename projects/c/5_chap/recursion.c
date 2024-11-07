@@ -5,10 +5,12 @@ int factorial(int n){ // definition
         return 1;
     }
     return factorial(n-1)*n;
-    }
+}
 
 int main(){
-    int a=5;
-    printf("%d!=%d\n",a,factorial(a));
-return 0;
+    int a;
+    printf("Enter the Number : ");
+    scanf("%d",&a);
+    printf("\n%d!=%d\n",a,factorial(a));
+    return 0;
 }
