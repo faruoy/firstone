@@ -7,9 +7,9 @@ typedef struct complex
    int re;
    int img;
 }comp;
-int display(complex c){
+void display(complex c){
     printf("%d + %di\n",c.re,c.img);
-    return 0;
+
 }
 
 int main(){
